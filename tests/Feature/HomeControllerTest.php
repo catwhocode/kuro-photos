@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class HomeTest extends TestCase
+class HomeControllerTest extends TestCase
 {
     public function test_redirect_to_home()
     {
